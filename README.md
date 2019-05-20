@@ -1,11 +1,12 @@
 # Random_Number_Generator
 
 A challenge!
-That little program was a bit challenging because the function time.h i use to generate a random number base is generation on the 
-cumputer clock and, more precisely, on the seconds. So i was only able to generate a different number every second.
-To solve that problem, i stock every number (10) generated with "randNumber = rand() % 100 + 1;" in a chart.
+That little program was a bit challenging because the function time.h i used to generate a random number based the generation on the 
+cumputer clock (using it it as a seed) and, more precisely, on the seconds. So i was only able to generate a different number every second.
+To solve that problem, i stock every number (10) generated with "randNumber = rand() % 100 + 1;" in a integer chart.
 Finally, i pick randomly a number in that chart and i get a pretty cool random number generator to emulate a 100 sided dice. :)
 
+# What did i learn?
 * I learned how to use a "for" in C.
 * A learn how to generate a random number, as i said earlier. ;)
 * I used a "do ... while();" to ask the user if he wants to activated the program again.
