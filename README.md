@@ -11,6 +11,7 @@ Finally, i pick randomly a number in that chart and i get a pretty cool random n
 * A learn how to generate a random number, as i said earlier. ;)
 * I used a "do ... while();" to ask the user if he wants to activated the program again.
 * I learn how to use a chart and the problem linked to it due to the conception of chart in C program language. 
+* Using srand (time(NULL)); and rand() from time.h.
 
 ** Don't hesitate to use that program or to transform it into a function to pick cells in a chart randomly for a game or to emulate a dice.
 It won't be too hard to get other type of dice, you only need to modify the %100 in the "randNumber = rand() % 100 + 1;"
