@@ -1,6 +1,5 @@
 # Random_Number_Generator
 
-A challenge!
 That little program was a bit challenging because the function time.h i used to generate a random number based the generation on the 
 cumputer clock (using it as a seed) and, more precisely, on the seconds. So i was only able to generate a different number every second. It slowed the number generation.
 To solve that problem, i stock every number (10) generated with "randNumber = rand() % 100 + 1;" in a integer chart.
