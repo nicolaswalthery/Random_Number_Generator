@@ -17,21 +17,21 @@ int main ()
   srand (time(NULL));
 
    printf("Chart of random numbers in which it'll pick a number:\n");
-  do
-  {
-     for(cptr=0;cptr<10;cptr++)
-     {
-         RandNumber = rand() % 100 + 1;
-         printf("%d ", RandNumber);
-         Stock_RandNumber[cptr]=RandNumber;
-     }
+   do
+   {
+      for(cptr=0;cptr<10;cptr++)
+      {
+          RandNumber = rand() % 100 + 1;
+          printf("%d ", RandNumber);
+          Stock_RandNumber[cptr]=RandNumber;
+      }
 
-      theChosenOne=rand() % 10; //Here to choose which number to pick randomly from the chart Stock_Rand_number.
+       theChosenOne=rand() % 10; //Here to choose which number to pick randomly from the chart Stock_Rand_number.
+ 
+       printf("\n\nThe random number picked is %d\n\n", Stock_RandNumber[theChosenOne]);
 
-      printf("\n\nThe random number picked is %d\n\n", Stock_RandNumber[theChosenOne]);
-
-      printf("Continue ? (y/*) ");
-      scanf(" %c", &continuer);
-  }
-  while(continuer == 'y');
+       printf("Continue ? (y/*) ");
+       scanf(" %c", &continuer);
+   }
+   while(continuer == 'y');
 }
